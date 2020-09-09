@@ -15,8 +15,7 @@
 
 - [Videos](#Videos)
 - [Annotations](#Annotations)
-- [Bibtex](#Bibtex)
-- [Contact](#Contact)
+- [References](#Bibtex)
 
 
 
