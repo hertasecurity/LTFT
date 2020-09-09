@@ -5,10 +5,8 @@
 
 **Authors:** Germán Barquero, Carles Fernández and Isabelle Hupont
 
-> Most current multi-object trackers focus on short-term tracking, and are based on deep and complex systems that do not operate in real-time, often making them impractical for video-surveillance. In this paper, we present a long- term multi-face tracking architecture conceived for working in crowded contexts, particularly unconstrained in terms of movement and occlusions, and where the face is often the only visible part of the person. Our system benefits from advances in the fields of face detection and face recogni- tion to achieve long-term tracking. It follows a tracking- by-detection approach, combining a fast short-term visual tracker with a novel online tracklet reconnection strategy grounded on face verification. Additionally, a correction module is included to correct past track assignments with no extra computational cost. We present a series of experi- ments introducing novel, specialized metrics for the evalu- ation of long-term tracking capabilities and a video dataset that we publicly release. Findings demonstrate that, in this context, our approach allows to obtain up to 50% longer tracks than state-of-the-art deep learning trackers.
+> Most current multi-object trackers focus on short-term tracking, and are based on deep and complex systems that do not operate in real-time, often making them impractical for video surveillance. In this paper, we present a long-term multi-face tracking architecture conceived for working in crowded contexts, particularly unconstrained in terms of movement and occlusions, and where the face is often the only visible part of the person. Our system benefits from advances in the fields of face detection and face recognition to achieve long-term tracking. It follows a tracking-by-detection approach, combining a fast short-term visual tracker with a novel online tracklet reconnection strategy grounded on face verification. Additionally, a correction module is included to correct past track assignments with no extra computational cost. We present a series of experiments introducing novel, specialized metrics for the evaluation of long-term tracking capabilities and a video dataset that we publicly release. Findings demonstrate that, in this context, our approach allows to obtain up to 50% longer tracks than state-of-the-art deep learning trackers.
 
-
-<a href="" target="_blank">**Link to the paper**</a>
 
 ---
 
@@ -131,18 +129,17 @@ where each detection (#det_1, #det_2, etc) corresponds to:
 
 ---
 
-## Bibtex
+## References
+
 If you use this work, please cite us:
 
-```
-G. Barquero, C. Fernández, I. Hupont. "Long-Term Face Tracking for Crowded Video-Surveillance Scenarios". International Joint Conference on Biometrics. 2020 (in press) 
-```
+> G. Barquero, C. Fernández, I. Hupont. "Long-Term Face Tracking for Crowded Video-Surveillance Scenarios". International Joint Conference on Biometrics. 2020 (in press) 
+
 
 If you use the ChokePoint videos in your work, please cite:
 
-```
-Y. Wong, S. Chen, S. Mau, C. Sanderson, B.C. Lovell. "Patch-based probabilistic image quality assessment for face selection and improved video-based face recognition". In CVPR 2011 Workshops (pp. 74-81), IEEE. June 2011
-```
+
+> Y. Wong, S. Chen, S. Mau, C. Sanderson, B.C. Lovell. "Patch-based probabilistic image quality assessment for face selection and improved video-based face recognition". In CVPR 2011 Workshops (pp. 74-81), IEEE. June 2011
 
 ---
 
