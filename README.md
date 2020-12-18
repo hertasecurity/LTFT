@@ -23,80 +23,74 @@
 
 ## Videos
 
-### > Choke1
-<b>Details</b>:<br>
-- Length: 1' 24"<br>
-- FPS: 30<br>
-- Frames: 2526<br>
-- Resolution: 800x600<br>
-- Scenario: indoor<br>
-- Subjects: 24<br>
+### **Summary**
 
-<b>Intructions</b>:<br>
+| Video | Length | FPS | Frames | Resolution | Scenario | Subjects |
+|---|---|---|---|---|---|---|---|
+| **IJCB paper** |   |   |   |   |   |   |
+| Choke1 | 1' 24" | 30 | 2526 |800x600|indoor|24|
+| Choke2 |1' 11"|30|2139|800x600|indoor|26|
+| Street |1' 8"|30|2042|1920x1080|outdoor|31|
+| Sidewalk |27"|24|648|1920x1080|outdoor|34|
+| Bengal |40"|25|1000|1920x1080|outdoor|36|
+| **T-BIOM extension** |   |   |   |   |   |   |
+| Terminal1 |1' 18"|30|2341|1920x1080|indoor|148|
+| Terminal2 |1' 15"|30|2240|1920x1080|indoor|140|
+| Terminal3 |26"|30|771|1920x1080|indoor|59|
+| Terminal4 |35"|30|1070|1920x1080|indoor|126|
+| Shibuya |30"|25|892|3840x2160|outdoor|91|
+
+<br>
+
+### **Instructions - IJCB Videos**
+
+### > Choke1
 1) Download <a href="https://zenodo.org/record/815657/files/P2E_S5.tar.xz" target="_blank">the P2E_S5 video</a> from the <a href="http://arma.sourceforge.net/chokepoint/" target="_blank">ChokePoint dataset</a>.
 2) Then, concatenate frames from P2E_S5_C1.2, P2E_S5_C1.1 and P2E_S5_C1.3, in this specific order, to generate <i>Choke1</i>.
 
-<br>
 
 ### >  Choke2
-<b>Details</b>:<br>
-- Length: 1' 11"<br>
-- FPS: 30<br>
-- Frames: 2139<br>
-- Resolution: 800x600<br>
-- Scenario: indoor<br>
-- Subjects: 26<br>
-
-<b>Intructions</b>:<br>
 1) Download <a href="https://zenodo.org/record/815657/files/P2L_S5.tar.xz" target="_blank">the P2L_S5 video</a> from the <a href="http://arma.sourceforge.net/chokepoint/" target="_blank">ChokePoint dataset</a>.
 2) Then, concatenate frames from P2L_S5_C1.2, P2L_S5_C1.1 and P2L_S5_C1.3, in this specific order, to generate <i>Choke2</i>.
 
-<br>
 
 ### >  Street
-<b>Details</b>:<br>
-- Length: 1' 8"<br>
-- FPS: 30<br>
-- Frames: 2042<br>
-- Resolution: 1920x1080<br>
-- Scenario: outdoor<br>
-- Subjects: 31<br>
-
-<b>Intructions</b>:<br>
 1) Download <a href="https://www.youtube.com/watch?v=6NBwbKMyzEE" target="_blank">this video</a> from youtube at 30 FPS.
 2) Then, cut it from the beginning (frame 0) to frame 2041.
 
-<br>
 
 ### >  Sidewalk
-<b>Details</b>:<br>
-- Length: 27"<br>
-- FPS: 24<br>
-- Frames: 648<br>
-- Resolution: 1920x1080<br>
-- Scenario: outdoor<br>
-- Subjects: 34<br>
-
-<b>Intructions</b>:<br>
 1) Download <a href="https://www.youtube.com/watch?v=UgUC_IY7rMw" target="_blank">this video</a> from youtube at 24 FPS, its original resolution.
 2) Cut it from frame 140 to frame 1436.
 3) Keep only even frames to double the speed of the video while keeping the same FPS (original video was recorded in slow-motion).
 
-<br>
 
 ### >  Bengal
-<b>Details</b>:<br>
-- Length: 40"<br>
-- FPS: 25<br>
-- Frames: 1000<br>
-- Resolution: 1920x1080<br>
-- Scenario: outdoor<br>
-- Subjects: 36<br>
-
-<b>Intructions</b>:<br>
 1) Download <a href="https://www.youtube.com/watch?v=oMJyrvHSGqY" target="_blank">this video</a> from youtube at 25 FPS.
 2) Then, cut it from frame 8475 to frame 9474.
 
+<br>
+
+### **Instructions - T-BIOM Videos**
+
+The four terminal videos were extracted from the <a href="https://www.youtube.com/watch?v=SqZWZTu1veA" target="_blank">same video</a>, at 30FPS and a resolution of 1080p.
+
+### >  Terminal1
+From frame 2400 to frame 4740, both included.
+
+### >  Terminal2
+From 00:23:37 to 00:24:52.
+
+### >  Terminal3
+From 00:19:49 to 00:20:15.
+
+### >  Terminal4
+From 00:06:45 to 00:07:21.
+
+
+### >  Shibuya
+1) Download <a href="https://www.youtube.com/watch?v=8ig8yLeV5dU" target="_blank">this video</a> from youtube at 25 FPS and 4K resolution.
+2) Then, cut it from 00:04:50 to 00:05:20.
 ---
 
 ## Annotations
@@ -132,13 +126,20 @@ where each detection (#det_1, #det_2, etc) corresponds to:
 
 If you use this work, please cite us:
 
-> G. Barquero, C. Fernández, I. Hupont. "Long-Term Face Tracking for Crowded Video-Surveillance Scenarios". International Joint Conference on Biometrics. 2020 (in press) 
+> G. Barquero, C. Fernández, I. Hupont. "Long-Term Face Tracking for Crowded Video-Surveillance Scenarios". International Joint Conference on Biometrics. 2020
 
-
+### Bibtex file
+```
+@article{barquero2020long,
+  title={Long-Term Face Tracking for Crowded Video-Surveillance Scenarios},
+  author={Barquero, Germ{\'a}n and Fern{\'a}ndez, Carles and Hupont, Isabelle},
+  journal={International Joint Conference on Biometrics},
+  year={2020}
+}
+```
 If you use the ChokePoint videos in your work, please cite:
 
 
 > Y. Wong, S. Chen, S. Mau, C. Sanderson, B.C. Lovell. "Patch-based probabilistic image quality assessment for face selection and improved video-based face recognition". In CVPR 2011 Workshops (pp. 74-81), IEEE. June 2011
-
 ---
 
