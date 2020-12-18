@@ -10,7 +10,7 @@
 
 ---
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 - [Videos](#Videos)
@@ -25,11 +25,11 @@
 
 ### **Summary**
 
-| Video | Length | FPS | Frames | Resolution | Scenario | Subjects |
-|---|---|---|---|---|---|---|---|
+| Video | Length  | FPS | Frames  | Resolution  | Scenario  | Subjects  |
+|---    |---      |---  |---      |---          |---        |---        |
 | **IJCB paper** |   |   |   |   |   |   |
 | Choke1 | 1' 24" | 30 | 2526 |800x600|indoor|24|
-| Choke2 |1' 11"|30|2139|800x600|indoor|26|
+| Choke2 |1' 11"| 30|2139|800x600|indoor|26|
 | Street |1' 8"|30|2042|1920x1080|outdoor|31|
 | Sidewalk |27"|24|648|1920x1080|outdoor|34|
 | Bengal |40"|25|1000|1920x1080|outdoor|36|
@@ -44,28 +44,28 @@
 
 ### **Instructions - IJCB Videos**
 
-### > Choke1
+#### > Choke1
 1) Download <a href="https://zenodo.org/record/815657/files/P2E_S5.tar.xz" target="_blank">the P2E_S5 video</a> from the <a href="http://arma.sourceforge.net/chokepoint/" target="_blank">ChokePoint dataset</a>.
 2) Then, concatenate frames from P2E_S5_C1.2, P2E_S5_C1.1 and P2E_S5_C1.3, in this specific order, to generate <i>Choke1</i>.
 
 
-### >  Choke2
+#### >  Choke2
 1) Download <a href="https://zenodo.org/record/815657/files/P2L_S5.tar.xz" target="_blank">the P2L_S5 video</a> from the <a href="http://arma.sourceforge.net/chokepoint/" target="_blank">ChokePoint dataset</a>.
 2) Then, concatenate frames from P2L_S5_C1.2, P2L_S5_C1.1 and P2L_S5_C1.3, in this specific order, to generate <i>Choke2</i>.
 
 
-### >  Street
+#### >  Street
 1) Download <a href="https://www.youtube.com/watch?v=6NBwbKMyzEE" target="_blank">this video</a> from youtube at 30 FPS.
 2) Then, cut it from the beginning (frame 0) to frame 2041.
 
 
-### >  Sidewalk
+#### >  Sidewalk
 1) Download <a href="https://www.youtube.com/watch?v=UgUC_IY7rMw" target="_blank">this video</a> from youtube at 24 FPS, its original resolution.
 2) Cut it from frame 140 to frame 1436.
 3) Keep only even frames to double the speed of the video while keeping the same FPS (original video was recorded in slow-motion).
 
 
-### >  Bengal
+#### >  Bengal
 1) Download <a href="https://www.youtube.com/watch?v=oMJyrvHSGqY" target="_blank">this video</a> from youtube at 25 FPS.
 2) Then, cut it from frame 8475 to frame 9474.
 
@@ -75,20 +75,20 @@
 
 The four terminal videos were extracted from the <a href="https://www.youtube.com/watch?v=SqZWZTu1veA" target="_blank">same video</a>, at 30FPS and a resolution of 1080p.
 
-### >  Terminal1
+#### >  Terminal1
 From frame 2400 to frame 4740, both included.
 
-### >  Terminal2
+#### >  Terminal2
 From 00:23:37 to 00:24:52.
 
-### >  Terminal3
+#### >  Terminal3
 From 00:19:49 to 00:20:15.
 
-### >  Terminal4
+#### >  Terminal4
 From 00:06:45 to 00:07:21.
 
 
-### >  Shibuya
+#### >  Shibuya
 1) Download <a href="https://www.youtube.com/watch?v=8ig8yLeV5dU" target="_blank">this video</a> from youtube at 25 FPS and 4K resolution.
 2) Then, cut it from 00:04:50 to 00:05:20.
 ---
@@ -128,7 +128,6 @@ If you use this work, please cite us:
 
 > G. Barquero, C. Fernández, I. Hupont. "Long-Term Face Tracking for Crowded Video-Surveillance Scenarios". International Joint Conference on Biometrics. 2020
 
-### Bibtex file
 ```
 @article{barquero2020long,
   title={Long-Term Face Tracking for Crowded Video-Surveillance Scenarios},
@@ -137,7 +136,9 @@ If you use this work, please cite us:
   year={2020}
 }
 ```
-If you use the ChokePoint videos in your work, please cite:
+
+
+If you use the ChokePoint videos in your work, please also cite:
 
 
 > Y. Wong, S. Chen, S. Mau, C. Sanderson, B.C. Lovell. "Patch-based probabilistic image quality assessment for face selection and improved video-based face recognition". In CVPR 2011 Workshops (pp. 74-81), IEEE. June 2011
